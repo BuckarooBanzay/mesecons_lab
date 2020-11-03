@@ -1,0 +1,9 @@
+[submodule "mods/mesecons"]
+	path = mods/mesecons
+	url = https://github.com/minetest-mods/mesecons/
+[submodule "mods/digilines"]
+	path = mods/digilines
+	url = https://github.com/minetest-mods/digilines/
+[submodule "mods/digiline_stuff"]
+	path = mods/digiline_stuff
+	url = https://github.com/cpdef/digiline-stuff
