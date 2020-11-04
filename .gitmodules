@@ -7,3 +7,6 @@
 [submodule "mods/modgen"]
 	path = mods/modgen
 	url = https://github.com/BuckarooBanzay/modgen
+[submodule "mods/display_modpack"]
+	path = mods/display_modpack
+	url = https://github.com/pyrollo/display_modpack
