@@ -1,19 +1,17 @@
 
 local images = {
-	{
+	["circuit_demo"] = {
 		texture = "images_circuit_demo_schematics.jpg",
-		name = "circuit_demo",
-		description = "Circuit demo"
+		description = "Circuit demo",
 	},
-	{
+	["decoder_demo"] = {
 		texture = "images_decoder_demo_schematics.jpg",
-		name = "decoder_demo",
 		description = "Decoder demo"
 	}
 }
 
-for _, def in ipairs(images) do
-	minetest.register_node("images:" .. def.name, {
+for name, def in pairs(images) do
+	minetest.register_node("images:" .. name, {
 		description = def.description,
 		drawtype = "signlike",
 		tiles = {
