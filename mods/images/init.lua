@@ -11,6 +11,10 @@ local images = {
 	["register_demo"] = {
 		texture = "images_register_demo_schematics.jpg",
 		description = "Register demo"
+	},
+	["display_demo"] = {
+		texture = "images_display_demo.jpg",
+		description = "Display demo"
 	}
 }
 
