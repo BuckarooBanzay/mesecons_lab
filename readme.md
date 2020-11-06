@@ -1,11 +1,18 @@
 
-# Mesecons school
+# Mesecons lab
 
+Mesecons laboratory and tutorials
 
 # Sources
 
 * https://forum.minetest.net/viewtopic.php?f=12&t=24034
 
+# Development
+
+```bash
+git submodule init
+git submodule update
+```
 
 # Licenses
 
