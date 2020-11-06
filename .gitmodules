@@ -10,3 +10,6 @@
 [submodule "mods/display_modpack"]
 	path = mods/display_modpack
 	url = https://github.com/pyrollo/display_modpack
+[submodule "mods/moreblocks"]
+	path = mods/moreblocks
+	url = https://github.com/minetest-mods/moreblocks.git
