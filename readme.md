@@ -15,10 +15,6 @@ The game isn't yet finished but playable in the current state, contributions are
 
 ![Screenshot](./menu/background.png)
 
-# Sources
-
-* https://forum.minetest.net/viewtopic.php?f=12&t=24034
-
 # Development
 
 ## Mod development
@@ -49,6 +45,12 @@ https://github.com/BuckarooBanzay/modgen
 Unless otherwise stated:
 * Code: MIT
 * Media: CC BY-SA 3.0
+
+## Buildings / Schematics
+
+CC BY-SA 4.0 So.Po.Coder:
+* https://forum.minetest.net/viewtopic.php?f=12&t=24034
+
 
 ## Mods
 
