@@ -46,7 +46,12 @@ https://github.com/BuckarooBanzay/modgen
 
 # Licenses
 
-* `mesecons_lab` game: MIT
+Unless otherwise stated:
+* Code: MIT
+* Media: CC BY-SA 3.0
+
+## Mods
+
 * `mods/default` LGPL 2.1 https://github.com/minetest/minetest_game/tree/master/mods/default
 * `mods/creative` LGPL 2.1 https://github.com/minetest/minetest_game/tree/master/mods/creative
 * `mods/doors` LGPL 2.1 https://github.com/minetest/minetest_game/tree/master/mods/doors
