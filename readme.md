@@ -3,7 +3,17 @@
 
 Mesecons laboratory and tutorials
 
-A place for Tutorials and other things around mesecons and digilines
+This game provides a world with prebuilt circuits and demos around the mesecons mod.
+
+It can be used as an educational tool in singleplayer or multiplayer.
+
+# Current state
+
+There are various builds provided by So.Po.Coder and some basic excercises to complete.
+
+The game isn't yet finished but playable in the current state, contributions are always welcome.
+
+![Screenshot](./menu/background.png)
 
 # Sources
 
