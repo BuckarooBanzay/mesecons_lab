@@ -15,4 +15,4 @@ jobs:
     - name: luacheck install
       run: luarocks install --local luacheck
     - name: luacheck run
-      run: $HOME/.luarocks/bin/luacheck mods/default mods/skybox mods/images
+      run: $HOME/.luarocks/bin/luacheck mods/default mods/skybox mods/images mods/spawn
