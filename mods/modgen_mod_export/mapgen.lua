@@ -9,8 +9,14 @@ local function get_mapblock_pos(pos)
 end
 
 local function get_mapblock_name(prefix, pos, suffix)
-	return prefix .. "mapblock-" ..
-		pos.x .. "_" .. pos.y .. "_" .. pos.z .. "." .. suffix
+  if minetest.get_modpath("modgen") then
+    -- use the "get_mapblock_name" function from the base mod or override
+    -- allows to use other patterns for file names (hashes, etc)
+    return modgen.get_mapblock_name(prefix, pos, suffix, false)
+  end
+
+  return prefix .. "/" .. pos.x .. "/mapblock_" ..
+    pos.y .. "_" .. pos.z .. "." .. suffix
 end
 
 local function read_compressed(filename)
