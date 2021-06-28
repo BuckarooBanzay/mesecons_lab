@@ -31,3 +31,6 @@
 [submodule "mods/creative"]
 	path = mods/creative
 	url = https://github.com/minetest-game/creative
+[submodule "mods/dye"]
+	path = mods/dye
+	url = https://github.com/minetest-game/dye
