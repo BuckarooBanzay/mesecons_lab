@@ -13,3 +13,9 @@
 [submodule "mods/moreblocks"]
 	path = mods/moreblocks
 	url = https://github.com/minetest-mods/moreblocks.git
+[submodule "mods/default"]
+	path = mods/default
+	url = https://github.com/minetest-game/default
+[submodule "mods/flowers"]
+	path = mods/flowers
+	url = https://github.com/minetest-game/flowers
