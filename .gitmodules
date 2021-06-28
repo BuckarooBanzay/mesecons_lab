@@ -34,3 +34,6 @@
 [submodule "mods/dye"]
 	path = mods/dye
 	url = https://github.com/minetest-game/dye
+[submodule "mods/sfinv"]
+	path = mods/sfinv
+	url = https://github.com/minetest-game/sfinv
