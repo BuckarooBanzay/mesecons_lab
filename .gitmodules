@@ -37,3 +37,6 @@
 [submodule "mods/sfinv"]
 	path = mods/sfinv
 	url = https://github.com/minetest-game/sfinv
+[submodule "mods/factory_bridges"]
+	path = mods/factory_bridges
+	url = https://github.com/pandorabox-io/factory_bridges
