@@ -40,3 +40,6 @@
 [submodule "mods/factory_bridges"]
 	path = mods/factory_bridges
 	url = https://github.com/pandorabox-io/factory_bridges
+[submodule "mods/digistuff"]
+	path = mods/digistuff
+	url = https://github.com/minetest-mirrors/digistuff
