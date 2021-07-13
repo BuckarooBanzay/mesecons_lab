@@ -1,8 +1,9 @@
 
 ![](https://github.com/BuckarooBanzay/mesecons_lab/workflows/luacheck/badge.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/buckaroobanzay/mesecons_lab)
 ![GitHub repo size](https://img.shields.io/github/repo-size/buckaroobanzay/mesecons_lab)
 ![Modgen size](https://byob.yarr.is/BuckarooBanzay/mesecons_lab/size)
+![Modgen mapblocks](https://byob.yarr.is/BuckarooBanzay/mesecons_lab/mapblock_count)
+![Modgen nodecount](https://byob.yarr.is/BuckarooBanzay/mesecons_lab/node_count)
 [![License](https://img.shields.io/badge/License-MIT%20and%20CC%20BY--SA%203.0-green.svg)](license.txt)
 [![Download](https://img.shields.io/badge/Download-ContentDB-blue.svg)](https://content.minetest.net/packages/BuckarooBanzay/mesecons_lab)
 
