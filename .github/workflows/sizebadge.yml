@@ -8,6 +8,8 @@ jobs:
     name: Create size badge
     steps:
       - uses: actions/checkout@v2
+      - name: apt
+        run: sudo apt-get install -y jq
       - id: size
         run: echo "##[set-output name=data;]$(cat mods/modgen_mod_export/manifest.json | jq .size/1000) kb"
       - name: Size badge
