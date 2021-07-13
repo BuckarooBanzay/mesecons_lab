@@ -7,7 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Create size badge
     steps:
-      - id: date
+      - uses: actions/checkout@v2
+      - id: size
         run: echo "##[set-output name=data;]$(cat mods/modgen_mod_export/manifest.json | jq .size/1000) kb"
       - name: Size badge
         uses: RubbaBoy/BYOB@v1.2.0-SNAPSHOT
@@ -15,6 +16,6 @@ jobs:
           NAME: size
           LABEL: 'Modgen size'
           ICON: 'git'
-          STATUS: ${{ steps.date.outputs.data }}
+          STATUS: ${{ steps.size.outputs.data }}
           COLOR: blue
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
