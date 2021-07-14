@@ -1,0 +1,10 @@
+version: "3.6"
+
+services:
+ sut:
+  build: ./test
+  user: root
+  volumes:
+    - "./:/root/.minetest/games/mesecons_lab/"
+  ports:
+    - "30000:30000/udp"

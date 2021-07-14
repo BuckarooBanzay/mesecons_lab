@@ -1,0 +1,14 @@
+name: test
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: apt
+      run: docker-compose -f docker-compose.test.yml up --exit-code-from sut

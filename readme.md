@@ -1,5 +1,6 @@
 
 ![](https://github.com/BuckarooBanzay/mesecons_lab/workflows/luacheck/badge.svg)
+![](https://github.com/BuckarooBanzay/mesecons_lab/workflows/test/badge.svg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/buckaroobanzay/mesecons_lab)
 ![Modgen size](https://byob.yarr.is/BuckarooBanzay/mesecons_lab/size)
 ![Modgen mapblocks](https://byob.yarr.is/BuckarooBanzay/mesecons_lab/mapblock_count)
