@@ -1,6 +1,7 @@
 {
    "mapblock_count" : 384,
    "metadata_count" : 66,
+   "mtime" : 1626462371,
    "next_id" : 258,
    "node_mapping" : {
       "air" : 0,
@@ -263,5 +264,6 @@
       "signs_road:large_street_sign" : 61
    },
    "size" : 261735,
+   "uid" : "e892982c-d04e-46db-851e-f272877fd29b",
    "version" : 2
 }
