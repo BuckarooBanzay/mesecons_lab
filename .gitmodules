@@ -46,3 +46,6 @@
 [submodule "mods/i3"]
 	path = mods/i3
 	url = https://github.com/minetest-mods/i3/
+[submodule "mods/printer"]
+	path = mods/printer
+	url = https://cheapiesystems.com/git/printer/
