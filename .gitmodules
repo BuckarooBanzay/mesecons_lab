@@ -43,3 +43,6 @@
 [submodule "mods/digistuff"]
 	path = mods/digistuff
 	url = https://github.com/minetest-mirrors/digistuff
+[submodule "mods/i3"]
+	path = mods/i3
+	url = https://github.com/minetest-mods/i3/
