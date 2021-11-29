@@ -17,7 +17,7 @@ jobs:
       - id: node_count
         run: echo "##[set-output name=data;]$(cat mods/modgen_mod_export/manifest.json | jq .next_id)"
       - name: Size badge
-        uses: RubbaBoy/BYOB@v1.2.1
+        uses: RubbaBoy/BYOB@v1.3.0
         with:
           NAME: size
           LABEL: 'Modgen size'
@@ -26,7 +26,7 @@ jobs:
           COLOR: blue
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Mapblock count badge
-        uses: RubbaBoy/BYOB@v1.2.1
+        uses: RubbaBoy/BYOB@v1.3.0
         with:
           NAME: mapblock_count
           LABEL: 'Mapblocks'
@@ -35,7 +35,7 @@ jobs:
           COLOR: blue
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Node count badge
-        uses: RubbaBoy/BYOB@v1.2.1
+        uses: RubbaBoy/BYOB@v1.3.0
         with:
           NAME: node_count
           LABEL: 'Unique nodes'
