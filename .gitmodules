@@ -49,3 +49,6 @@
 [submodule "mods/printer"]
 	path = mods/printer
 	url = https://cheapiesystems.com/git/printer/
+[submodule "mods/digibuilder"]
+	path = mods/digibuilder
+	url = https://github.com/BuckarooBanzay/digibuilder
