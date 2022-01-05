@@ -1,0 +1,10 @@
+minApprovals:
+ COLLABORATOR: 0
+requiredLabels:
+ - dependencies
+
+rules:
+  - requiredTitleRegex: '\bi3|digilines|mesecons|creative|digistuff|doors|dye|flowers\b'
+
+mergeMethod: rebase
+reportStatus: true
