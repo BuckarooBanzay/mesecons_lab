@@ -6,5 +6,9 @@ services:
   user: root
   volumes:
     - "./:/root/.minetest/games/mesecons_lab/"
+    - "worlds:/root/.minetest/worlds/"
   ports:
     - "30000:30000/udp"
+
+volumes:
+  worlds: {}

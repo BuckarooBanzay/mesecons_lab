@@ -5,7 +5,8 @@ globals = {
 	"creative",
 	"screwdriver",
 	"mesecon",
-	"digilines"
+	"digilines",
+	"integration_test"
 }
 
 read_globals = {
