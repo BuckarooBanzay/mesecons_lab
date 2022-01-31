@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/minetest/minetest/server:5.4.0
+FROM registry.gitlab.com/minetest/minetest/server:5.5.0
 
 COPY ./entrypoint.sh /entrypoint.sh
 COPY ./minetest.conf /minetest.conf
