@@ -33,8 +33,7 @@ Modding on the Lua-Front:
 
 ```bash
 # initialize and checkout the submodules
-git submodule init
-git submodule update
+git submodule update --recursive --init
 ```
 
 ## World development
