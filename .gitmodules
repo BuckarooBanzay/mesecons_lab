@@ -52,3 +52,12 @@
 [submodule "mods/digibuilder"]
 	path = mods/digibuilder
 	url = https://github.com/BuckarooBanzay/digibuilder
+[submodule "mods/technic"]
+	path = mods/technic
+	url = https://github.com/mt-mods/technic
+[submodule "mods/pipeworks"]
+	path = mods/pipeworks
+	url = https://github.com/mt-mods/pipeworks
+[submodule "mods/basic_materials"]
+	path = mods/basic_materials
+	url = https://github.com/mt-mods/basic_materials
