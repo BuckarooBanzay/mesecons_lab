@@ -44,7 +44,6 @@ Building and changing the ingame world
 Changes are writtenback with the help of the `modgen` mod:
 https://github.com/BuckarooBanzay/modgen
 
-* Add the `modgen` mod to the list of trusted mods
 * Change/Improve things
 * Select the opposite corners of the changed area with `/pos1` and `/pos2` (alternatively: use Worldedit markers)
 * Export it back with `/export` or `/export fast` if you are in a hurry
