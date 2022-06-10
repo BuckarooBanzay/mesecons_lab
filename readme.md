@@ -45,6 +45,7 @@ Changes are writtenback with the help of the `modgen` mod:
 https://github.com/BuckarooBanzay/modgen
 
 * Change/Improve things
+* Add the `modgen` mod to the `secure.trusted_mods` setting (to allow it to write to its own mod-directory)
 * Select the opposite corners of the changed area with `/pos1` and `/pos2` (alternatively: use Worldedit markers)
 * Export it back with `/export` or `/export fast` if you are in a hurry
 * Add and commit the changes in git
