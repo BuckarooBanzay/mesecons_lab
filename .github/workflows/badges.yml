@@ -12,8 +12,8 @@ jobs:
         run: sudo apt-get install -y jq
       - id: size
         run: echo "##[set-output name=data;]$(cat mods/modgen_mod_export/manifest.json | jq .size/1000) kb"
-      - id: mapblock_count
-        run: echo "##[set-output name=data;]$(cat mods/modgen_mod_export/manifest.json | jq .mapblock_count)"
+      - id: chunks
+        run: echo "##[set-output name=data;]$(cat mods/modgen_mod_export/manifest.json | jq .chunks)"
       - id: node_count
         run: echo "##[set-output name=data;]$(cat mods/modgen_mod_export/manifest.json | jq .next_id)"
       - name: Size badge
@@ -28,10 +28,10 @@ jobs:
       - name: Mapblock count badge
         uses: RubbaBoy/BYOB@v1.3.0
         with:
-          NAME: mapblock_count
-          LABEL: 'Mapblocks'
+          NAME: chunks
+          LABEL: 'Chunks'
           ICON: 'git'
-          STATUS: ${{ steps.mapblock_count.outputs.data }}
+          STATUS: ${{ steps.chunks.outputs.data }}
           COLOR: blue
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Node count badge
