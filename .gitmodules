@@ -61,3 +61,6 @@
 [submodule "mods/basic_materials"]
 	path = mods/basic_materials
 	url = https://github.com/mt-mods/basic_materials
+[submodule "mods/moreores"]
+	path = mods/moreores
+	url = http://github.com/minetest-mods/moreores
