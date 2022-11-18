@@ -19,7 +19,7 @@ local images = {
 }
 
 for name, def in pairs(images) do
-	minetest.register_node("images:" .. name, {
+	minetest.register_node(":images:" .. name, {
 		description = def.description,
 		drawtype = "signlike",
 		tiles = {

@@ -6,7 +6,7 @@ end
 -- mod namespace
 integration_test = {}
 
-local MP = minetest.get_modpath("integration_test")
+local MP = minetest.get_modpath("mesecons_lab_integration_test")
 dofile(MP.."/api.lua")
 dofile(MP.."/export_nodenames.lua")
 dofile(MP.."/check_nodenames.lua")

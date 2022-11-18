@@ -3,7 +3,7 @@ integration_test.register_test(function()
     minetest.log("warning", "[integration_test] checking nodenames")
 
     local assert_nodes = {}
-    for nodename in io.lines(minetest.get_modpath("integration_test") .. "/nodenames.txt") do
+    for nodename in io.lines(minetest.get_modpath("mesecons_lab_integration_test") .. "/nodenames.txt") do
         table.insert(assert_nodes, nodename)
     end
 
