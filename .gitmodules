@@ -4,9 +4,6 @@
 [submodule "mods/digilines"]
 	path = mods/digilines
 	url = https://github.com/minetest-mods/digilines/
-[submodule "mods/modgen"]
-	path = mods/modgen
-	url = https://github.com/BuckarooBanzay/modgen
 [submodule "mods/display_modpack"]
 	path = mods/display_modpack
 	url = https://github.com/pyrollo/display_modpack
@@ -55,3 +52,9 @@
 [submodule "mods/mtt"]
 	path = mods/mtt
 	url = https://github.com/buckarooBanzay/mtt
+[submodule "mods/mapsync"]
+	path = mods/mapsync
+	url = https://github.com/BuckarooBanzay/mapsync
+[submodule "mods/mtzip"]
+	path = mods/mtzip
+	url = https://github.com/BuckarooBanzay/mtzip
