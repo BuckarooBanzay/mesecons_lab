@@ -52,3 +52,6 @@
 [submodule "mods/digibuilder"]
 	path = mods/digibuilder
 	url = https://github.com/BuckarooBanzay/digibuilder
+[submodule "mods/mtt"]
+	path = mods/mtt
+	url = https://github.com/buckarooBanzay/mtt

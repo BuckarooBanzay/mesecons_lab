@@ -7,4 +7,3 @@ minetest.override_item("doors:door_steel_c", {
 minetest.override_item("doors:door_steel_c", {
     mesecons = door_def.mesecons
 })
-

@@ -14,5 +14,7 @@ jobs:
       run: sudo apt-get install -y luarocks
     - name: luacheck install
       run: luarocks install --local luacheck
-    - name: luacheck run
-      run: $HOME/.luarocks/bin/luacheck mods/mesecons_lab_skybox mods/mesecons_lab_images mods/mesecons_lab_spawn
+    - name: luacheck run (mesecons_lab)
+      run: cd mods/mesecons_lab && $HOME/.luarocks/bin/luacheck .
+    - name: luacheck run (mesecons_lab_images)
+      run: cd mods/mesecons_lab_images && $HOME/.luarocks/bin/luacheck .
