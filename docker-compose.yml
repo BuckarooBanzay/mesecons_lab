@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
  sut:
-  image: registry.gitlab.com/minetest/minetest/server:5.6.1
+  image: registry.gitlab.com/minetest/minetest/server:${ENGINE_VERSION:-5.6.1}
   user: root
   volumes:
     - "./:/root/.minetest/games/mesecons_lab/"
