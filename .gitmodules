@@ -58,3 +58,18 @@
 [submodule "mods/mtzip"]
 	path = mods/mtzip
 	url = https://github.com/BuckarooBanzay/mtzip
+[submodule "mods/technic"]
+	path = mods/technic
+	url = https://github.com/mt-mods/technic
+[submodule "mods/pipeworks"]
+	path = mods/pipeworks
+	url = https://github.com/mt-mods/pipeworks
+[submodule "mods/moreores"]
+	path = mods/moreores
+	url = https://github.com/minetest-mods/moreores
+[submodule "mods/basic_materials"]
+	path = mods/basic_materials
+	url = https://github.com/mt-mods/basic_materials
+[submodule "mods/unifieddyes"]
+	path = mods/unifieddyes
+	url = https://github.com/mt-mods/unifieddyes
