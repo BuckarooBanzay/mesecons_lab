@@ -9,7 +9,13 @@
 
 Mesecons laboratory and tutorials
 
-This game provides a world with prebuilt circuits and demos around the mesecons mod.
+This game serves as a tutorial and showcase for the following mods:
+
+* mesecons
+* digilines
+* digistuff
+* digibuilder
+* technic
 
 It can be used as an educational tool in singleplayer or multiplayer.
 
