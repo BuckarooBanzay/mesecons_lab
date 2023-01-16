@@ -40,9 +40,6 @@
 [submodule "mods/digistuff"]
 	path = mods/digistuff
 	url = https://github.com/minetest-mirrors/digistuff
-[submodule "mods/i3"]
-	path = mods/i3
-	url = https://github.com/minetest-mods/i3/
 [submodule "mods/printer"]
 	path = mods/printer
 	url = https://cheapiesystems.com/git/printer/
@@ -73,3 +70,6 @@
 [submodule "mods/unifieddyes"]
 	path = mods/unifieddyes
 	url = https://github.com/mt-mods/unifieddyes
+[submodule "mods/unified_inventory"]
+	path = mods/unified_inventory
+	url = https://github.com/minetest-mods/unified_inventory
