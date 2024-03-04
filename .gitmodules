@@ -73,3 +73,6 @@
 [submodule "mods/unified_inventory"]
 	path = mods/unified_inventory
 	url = https://github.com/minetest-mods/unified_inventory
+[submodule "mods/xcompat"]
+	path = mods/xcompat
+	url = https://github.com/mt-mods/xcompat/
