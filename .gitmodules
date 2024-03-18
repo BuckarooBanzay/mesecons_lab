@@ -39,7 +39,7 @@
 	url = https://github.com/pandorabox-io/factory_bridges
 [submodule "mods/digistuff"]
 	path = mods/digistuff
-	url = https://github.com/minetest-mirrors/digistuff
+	url = https://github.com/mt-mods/digistuff
 [submodule "mods/printer"]
 	path = mods/printer
 	url = https://cheapiesystems.com/git/printer/
