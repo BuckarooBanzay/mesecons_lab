@@ -10,13 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: test
+        run: docker-compose up --exit-code-from sut
+
       - name: Dependabot metadata
         id: metadata
         uses: dependabot/fetch-metadata@v1.6.0
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+
       - name: Enable auto-merge for Dependabot PRs
-        if: ${{contains(steps.metadata.outputs.dependency-names, 'pipeworks') || contains(steps.metadata.outputs.dependency-names, 'technic')}}
+        if: ${{success() && (
+          contains(steps.metadata.outputs.dependency-names, 'pipeworks') ||
+          contains(steps.metadata.outputs.dependency-names, 'technic') ) }}
         run: gh pr merge --auto --merge "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
