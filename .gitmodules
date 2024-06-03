@@ -76,3 +76,6 @@
 [submodule "mods/xcompat"]
 	path = mods/xcompat
 	url = https://github.com/mt-mods/xcompat/
+[submodule "mods/fakelib"]
+	path = mods/fakelib
+	url = https://github.com/OgelGames/fakelib
