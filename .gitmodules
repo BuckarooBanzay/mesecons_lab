@@ -1,6 +1,6 @@
 [submodule "mods/mesecons"]
 	path = mods/mesecons
-	url = https://github.com/mt-mods/mesecons/
+	url = https://github.com/minetest-mods/mesecons/
 [submodule "mods/digilines"]
 	path = mods/digilines
 	url = https://github.com/minetest-mods/digilines/
