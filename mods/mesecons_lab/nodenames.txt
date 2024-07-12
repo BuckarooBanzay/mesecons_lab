@@ -488,7 +488,6 @@ technic:slope_zinc_block_cut
 moreblocks:slab_brick_two_sides
 technic:marble_technic_cnc_twocurvededge
 moreblocks:slope_cobble_inner_half
-mesecons_pistons:piston_sticky_overheated
 moreblocks:panel_iron_checker_15
 moreblocks:slope_iron_glass_inner_cut_half
 moreblocks:slope_tar_half_raised
@@ -615,7 +614,6 @@ moreblocks:slab_aspen_tree_14
 doors:trapdoor_steel_open
 moreblocks:slope_cobble_half
 default:acacia_wood_technic_cnc_element_t
-mesecons_extrawires:vertical_middle_off
 technic:stair_brass_block_alt_4
 mesecons_pistons:piston_sticky_off
 moreblocks:stair_iron_stone_right_half
@@ -692,7 +690,6 @@ moreblocks:slope_coal_stone_inner_cut_half_raised
 moreblocks:stair_sandstone_block_alt_4
 mesecons_delayer:delayer_off_3
 moreblocks:slope_grey_bricks_outer_cut
-mesecons_gates:pulse_1_on
 moreblocks:panel_cactus_checker_4
 default:obsidian_block_technic_cnc_element_t_double
 default:stonebrick_technic_cnc_element_cross
@@ -855,7 +852,6 @@ moreblocks:stair_iron_stone_alt_2
 technic:slope_cast_iron_block_half_raised
 moreblocks:micro_split_stone_tile_2
 moreblocks:slope_copperpatina_inner_cut_half_raised
-mesecons_extrawires:vertical_middle_on
 moreblocks:micro_desert_stonebrick_2
 moreblocks:slope_mossycobble_half_raised
 moreblocks:micro_desert_stone_block
@@ -1720,7 +1716,6 @@ default:bronzeblock_technic_cnc_element_end_double
 default:tinblock_technic_cnc_slope_upsdown
 technic:stair_marble_alt
 technic:stair_marble_inner
-mesecons_extrawires:vertical_tap_off
 moreblocks:slope_sandstone_inner
 moreblocks:slope_aspen_wood_inner_cut_half_raised
 moreblocks:panel_bronzeblock
@@ -1965,7 +1960,6 @@ moreblocks:stair_iron_stone_bricks_half
 moreblocks:micro_diamondblock_15
 moreblocks:stair_all_faces_tree
 moreblocks:slab_obsidian_block_three_quarter
-mesecons_gates:pulse_2_on
 default:sandstone_technic_cnc_slope_edge
 technic:cast_iron_block_technic_cnc_slope_upsdown
 default:bronzeblock_technic_cnc_element_edge_double
@@ -3815,7 +3809,6 @@ moreblocks:slope_plankstone_outer_cut_half
 moreblocks:slope_plankstone_half
 moreblocks:slope_plankstone_inner_half
 moreblocks:slope_plankstone_inner_cut_half
-mesecons_gates:pulse_3_off
 moreblocks:stair_sandstone_alt_4
 moreblocks:panel_glow_glass_12
 moreblocks:slope_plankstone_inner_cut
@@ -4303,7 +4296,6 @@ moreblocks:panel_acacia_tree_15
 moreblocks:stair_checker_stone_tile_inner
 moreblocks:micro_coral_skeleton
 moreblocks:panel_coral_skeleton_4
-mesecons_gates:pulse_1_off
 technic:mv_battery_box7
 moreblocks:slope_stone_outer
 moreblocks:stair_stonebrick_alt_1
@@ -4325,7 +4317,6 @@ default:tree_technic_cnc_slope_inner_edge
 moreblocks:slope_coral_skeleton_inner
 moreblocks:slab_meselamp
 moreblocks:slope_glow_glass_half
-mesecons_gates:pulse_2_off
 doors:gate_pine_wood_open
 default:desert_stone_technic_cnc_stick
 moreblocks:micro_wood_12
@@ -5265,7 +5256,6 @@ moreblocks:slope_all_faces_jungle_tree_inner_cut_half_raised
 moreblocks:panel_wood_tile_center_4
 technic:gold_locked_chest_white
 moreblocks:slope_wood_tile_outer
-mesecons_pistons:piston_normal_overheated
 default:pine_wood_technic_cnc_element_t
 moreblocks:slab_pine_wood_two_sides
 signs:wooden_left_sign
@@ -5354,7 +5344,6 @@ moreblocks:slope_desert_stone_block_half_raised
 technic:gold_locked_chest_orange
 moreblocks:slope_desert_stone_block_outer_half_raised
 moreblocks:grey_bricks
-mesecons_extrawires:vertical_tap_on
 default:obsidian_block_technic_cnc_onecurvededge
 technic:uranium12_block
 default:tree_technic_cnc_slope_upsdown
@@ -5503,7 +5492,6 @@ moreblocks:slab_coral_skeleton_15
 technic:slope_marble_bricks
 moreblocks:slab_silver_sandstone_brick_three_sides
 pipeworks:lua_tube010110
-mesecons_gates:pulse_3_on
 moreblocks:panel_clean_super_glow_glass_1
 moreblocks:panel_desert_stone_4
 mesecons:wire_11111001_on
@@ -5975,7 +5963,6 @@ default:silver_sandstone_block_technic_cnc_stick
 mesecons:wire_01010100_off
 moreblocks:slab_meselamp_14
 pipeworks:detector_tube_on_7
-mesecons_gates:pulse_4_off
 technic:stair_granite_bricks_alt_4
 basic_materials:cement_block_technic_cnc_spike
 moreblocks:slope_brick
@@ -7056,7 +7043,6 @@ default:tinblock_technic_cnc_slope_inner_edge_upsdown
 moreblocks:slab_coal_stone_three_quarter
 moreblocks:slope_pine_tree_cut
 moreblocks:slope_pine_tree_inner_cut
-mesecons_gates:pulse_4_on
 moreblocks:slope_pine_tree_inner_cut_half
 default:wood_technic_cnc_element_edge
 moreblocks:slope_pine_tree_half
