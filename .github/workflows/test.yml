@@ -4,7 +4,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@main
+      with:
+        submodules: recursive
     - uses: buckaroobanzay/mtt@main
       with:
         test_mode: game
