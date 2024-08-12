@@ -10,13 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@main
         with:
           fetch-depth: 0
           submodules: recursive
 
-      - name: test
-        run: docker-compose up --exit-code-from sut
+      - uses: buckaroobanzay/mtt@main
+        with:
+          test_mode: game
+          mtt_filter: mesecons_lab
+          additional_config: |
+            mg_name = singlenode
 
       - name: Dependabot metadata
         id: metadata
