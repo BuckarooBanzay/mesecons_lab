@@ -10,6 +10,6 @@ jobs:
     - uses: buckaroobanzay/mtt@main
       with:
         test_mode: game
+        modname: mesecons_lab
         additional_config: |
           mg_name = singlenode
-    - uses: coverallsapp/github-action@v1
