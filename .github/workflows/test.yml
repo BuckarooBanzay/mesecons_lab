@@ -1,20 +1,13 @@
 name: test
-
 on: [push, pull_request]
-
 jobs:
-  build:
-
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    strategy:
-      matrix:
-        ENGINE_VERSION: [5.4.0, 5.5.0, 5.6.1, latest]
-
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v2
+    - uses: buckaroobanzay/mtt@main
       with:
-        fetch-depth: 0
-        submodules: recursive
-    - name: test
-      run: docker-compose up --exit-code-from sut
+        test_mode: game
+        additional_config: |
+          mg_name = singlenode
+    - uses: coverallsapp/github-action@v1
