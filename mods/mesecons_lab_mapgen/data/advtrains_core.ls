@@ -20,7 +20,7 @@ Sptmap:T
 E
 Strains:T
 S935295:T
-Svelocity:N6
+Svelocity:N6.3251059837639
 Sil_sections:T
 E
 Sspeed_restrictions_t:T
@@ -34,11 +34,11 @@ Slast_connid:N1
 Starvelocity:N15
 Sars_disable:B1
 Sdoor_open:N-0
-Slast_frac:N0.9423161556395
+Slast_frac:N0.95176794107938
 Slast_pos:T
 Sy:N-29
 Sx:N75
-Sz:N60
+Sz:N57
 E
 Sis_shunt:B0
 E

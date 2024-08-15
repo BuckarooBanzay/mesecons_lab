@@ -1,1 +1,1 @@
-return {motors={["(34,3,0)"]={elevators={"(34,1,0)","(34,-28,0)"},pnames={"1","-28"},labels={"Spawn platform","Bottom platform"}}}}
+local _={};_[1]="elevators";return {motors={["(59,-21,56)"]={[_[1]]={"(59,-23,56)","(59,-28,56)"},pnames={"-23","-28"},labels={"",""}},["(34,3,0)"]={[_[1]]={"(34,1,0)","(34,-28,0)"},pnames={"1","-28"},labels={"Spawn platform","Bottom platform"}},["(81,-21,56)"]={[_[1]]={"(81,-23,56)","(81,-28,56)"},pnames={"-23","-28"},labels={"",""}}}}
