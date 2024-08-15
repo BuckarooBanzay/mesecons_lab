@@ -1,5 +1,7 @@
 globals = {
-	"mesecons_lab"
+	"mesecons_lab",
+	"technic",
+	"minetest"
 }
 
 read_globals = {
@@ -8,7 +10,6 @@ read_globals = {
 	table = {fields = {"copy", "getn"}},
 
 	-- Minetest
-	"minetest",
 	"vector", "ItemStack",
 	"dump", "dump2",
 	"VoxelArea",

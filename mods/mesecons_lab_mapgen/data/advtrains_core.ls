@@ -20,27 +20,29 @@ Sptmap:T
 E
 Strains:T
 S935295:T
-Svelocity:N2
+Svelocity:N0
 Sil_sections:T
 E
 Sspeed_restrictions_t:T
 Smain:N-1
 E
-Stext_inside:SNext Stop&:&nSouth station
+Satc_command:S A1 SM
 Strainparts:T
 N1:S660447
 E
-Slast_connid:N1
-Starvelocity:N15
+Slast_connid:N2
+Starvelocity:N0
 Sars_disable:B1
+Sis_shunt:B0
+Stext_inside:SNext Stop&:&nSouth station
 Sdoor_open:N-0
-Slast_frac:N0.37148967710613
+Slast_frac:N0.0061397813508357
 Slast_pos:T
 Sy:N-29
 Sx:N75
-Sz:N45
+Sz:N65
 E
-Sis_shunt:B0
+Satc_delay:N0.059761002659798
 E
 E
 E
