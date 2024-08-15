@@ -20,13 +20,13 @@ Sptmap:T
 E
 Strains:T
 S935295:T
-Svelocity:N6.3251059837639
+Svelocity:N2
 Sil_sections:T
 E
 Sspeed_restrictions_t:T
 Smain:N-1
 E
-Stext_inside:SNext Stop&:&nNorth station
+Stext_inside:SNext Stop&:&nSouth station
 Strainparts:T
 N1:S660447
 E
@@ -34,11 +34,11 @@ Slast_connid:N1
 Starvelocity:N15
 Sars_disable:B1
 Sdoor_open:N-0
-Slast_frac:N0.95176794107938
+Slast_frac:N0.37148967710613
 Slast_pos:T
 Sy:N-29
 Sx:N75
-Sz:N57
+Sz:N45
 E
 Sis_shunt:B0
 E

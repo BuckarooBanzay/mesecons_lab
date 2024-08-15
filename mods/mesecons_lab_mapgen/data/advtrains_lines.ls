@@ -11,7 +11,7 @@ Sname:SNorth station
 Sowner:Ssingleplayer
 E
 E
-Srwt_time:N3730
+Srwt_time:N4594
 Sstops:T
 S7FE3804B8045:T
 Strack:S
@@ -19,10 +19,10 @@ Sars:T
 Sdefault:B1
 E
 Sreverse:B1
-Swait:N5
-Sddelay:N1
 Sdoors:SL
 Sstn:SN
+Swait:N5
+Sddelay:N1
 Sspeed:SM
 E
 S7FE3804B802C:T
@@ -31,10 +31,10 @@ Sars:T
 Sdefault:B1
 E
 Sreverse:B1
-Swait:N5
-Sddelay:N1
 Sdoors:SR
 Sstn:SS
+Swait:N5
+Sddelay:N1
 Sspeed:SM
 E
 E
