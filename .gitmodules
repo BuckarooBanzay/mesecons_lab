@@ -79,3 +79,12 @@
 [submodule "mods/fakelib"]
 	path = mods/fakelib
 	url = https://github.com/OgelGames/fakelib
+[submodule "mods/advtrains"]
+	path = mods/advtrains
+	url = https://github.com/minetest-mirrors/advtrains
+[submodule "mods/basic_trains"]
+	path = mods/basic_trains
+	url = https://github.com/minetest-mirrors/basic_trains
+[submodule "mods/elevator"]
+	path = mods/elevator
+	url = https://github.com/tigris-mt/elevator
