@@ -1,5 +1,25 @@
 LUA_SER v=2
 Stcbs:T
+S(75,-29,50):T
+N1:T
+Sroutes:T
+E
+Sts_id:S225568
+Ssignal_name:SSignal at (75,-29,50)
+E
+N2:T
+E
+E
+S(75,-29,63):T
+N1:T
+E
+N2:T
+Sroutes:T
+E
+Sts_id:S225568
+Ssignal_name:SSignal at (75,-29,63)
+E
+E
 E
 Srs_locks:T
 E
@@ -16,6 +36,30 @@ E
 Sinfluence_points:T
 E
 Sts:T
+S225568:T
+Stc_breaks:T
+N1:T
+Ss:N1
+Sp:T
+Sy:N-29
+Sx:N75
+Sz:N50
+E
+E
+N2:T
+Ss:N2
+Sp:T
+Sy:N-29
+Sx:N75
+Sz:N63
+E
+E
+E
+Sname:SSection 225568
+Strains:T
+N1:S935295
+E
+E
 E
 E
 END_SER
