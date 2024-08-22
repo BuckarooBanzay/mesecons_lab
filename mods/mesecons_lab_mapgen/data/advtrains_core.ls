@@ -5,7 +5,7 @@ E
 E
 Swagons:T
 S660447:T
-Swagon_flipped:B0
+Swagon_flipped:B1
 Sid:S660447
 Sowner:Ssingleplayer
 Sseatp:T
@@ -26,23 +26,23 @@ E
 Sspeed_restrictions_t:T
 Smain:N-1
 E
-Satc_command:S A1 SM
+Satc_command:S OC RD1 A1 SM
 Strainparts:T
 N1:S660447
 E
-Slast_connid:N2
+Slast_connid:N1
 Starvelocity:N0
 Sars_disable:B1
 Sis_shunt:B0
-Stext_inside:SNext Stop&:&nSouth station
-Sdoor_open:N-0
-Slast_frac:N0.0061397813508357
+Stext_inside:S
+Sdoor_open:N-1
+Slast_frac:N0.00098159364026174
 Slast_pos:T
 Sy:N-29
 Sx:N75
-Sz:N65
+Sz:N69
 E
-Satc_delay:N0.059761002659798
+Satc_delay:N0.43634699657559
 E
 E
 E
